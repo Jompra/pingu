@@ -1,7 +1,10 @@
 # Pingu
 Request your homepage via a cron job
 
+This is intended to run on some 'always on' device running linux/macos. Personally I'm using it on a raspberry pi to keep power consumption to a minimum however any linux device will work.
+
 To install and use:
+I assume you have python 3 and pipenv installed on your machine.
 
 ```
 git clone git@github.com:Jompra/pingu.git Pingu
@@ -30,3 +33,7 @@ sudo env EDITOR=nano crontab -e
 Delete any lines ending with Pingu/ping.py
 Control o, enter, then control x.
 Press okay on any dialogue box
+
+## Improvements
+
+Please feel free to fork the repo and add any clever functionality that you have.
