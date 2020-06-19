@@ -17,7 +17,7 @@ Initally intended to run on a raspberry pi with raspbian but ultimately can run 
 
 This was a super quick rush together so please send me a PR with any improvements.
 
-##Uninstall
+## Uninstall
 You can stop the process working by simply removing the pingu directory:
 ```
 rm -rf pingu
@@ -27,6 +27,6 @@ however to remove the cron job do the following:
 ```
 sudo env EDITOR=nano crontab -e
 ```
-Delete any lines with 'Keeping YOUR-SITE-NAME alive'
+Delete any lines ending with Pingu/ping.py
 Control o, enter, then control x.
 Press okay on any dialogue box
