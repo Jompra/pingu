@@ -2,6 +2,7 @@ import requests
 
 filename = open('site-to-ping.txt', 'r')
 
-site = filename.read()
+sites = filename.read().split('\n')[:-1]
 
-requests.get(site)
+for site in sites:
+  requests.get(site)
