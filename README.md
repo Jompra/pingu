@@ -8,6 +8,7 @@ I assume you have python 3 and pipenv installed on your machine.
 
 ```
 git clone git@github.com:Jompra/pingu.git Pingu
+cd Pingu
 pipenv shell
 pipenv install
 sudo python3 pingu.py
@@ -22,8 +23,9 @@ This was a super quick rush together so please send me a PR with any improvement
 
 ## Uninstall
 You can stop the process working by simply removing the pingu directory:
+CD to the directory where Pingu is saved and carefully type:
 ```
-rm -rf pingu
+rm -rf Pingu
 ```
 
 however to remove the cron job do the following:
